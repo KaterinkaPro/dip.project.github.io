@@ -1,0 +1,51 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.header {
+    background: #294f6e;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #294f6e;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: #6999c0;
+}
+.dropdown-menu a:hover {
+    background-color: #294f6e;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 0 5px 5px 0;
+}
+
+.forsearch {
+    background-color: #009b86;
+    color: rgb(255, 255, 255);
+}
+
+.headname {
+    text-align: center;
+}
+
+/*body {
+    background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+} */

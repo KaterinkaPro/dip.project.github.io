@@ -45,6 +45,11 @@ body {
     text-align: center;
 }
 
+.description{
+    margin-left: 30px;
+    font-style: italic;
+}
+
 /*body {
     background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
     background-repeat: no-repeat;

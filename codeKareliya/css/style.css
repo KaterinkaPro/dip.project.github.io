@@ -39,6 +39,12 @@ body {
     text-align: center;
 }
 
+/*курсив по цетнру*/
+.heading {
+    font-style: italic;
+    text-align: center;
+}
+
 /*body {
     background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
     background-repeat: no-repeat;

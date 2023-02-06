@@ -50,6 +50,10 @@ body {
     font-style: italic;
 }
 
+p{
+    text-indent: 3.5em;
+}
+
 /*body {
     background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
     background-repeat: no-repeat;

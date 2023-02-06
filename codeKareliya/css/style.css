@@ -46,7 +46,6 @@ body {
 }
 
 .description{
-    margin-left: 30px;
     font-style: italic;
 }
 
@@ -54,6 +53,50 @@ p{
     text-indent: 3.5em;
 }
 
+
+/* свойства сетки карточек */
+.card-title {
+	font-size: 22px;
+	color: #3b404f;
+	font-weight: 700;
+}
+
+.card-body {
+	padding: 7px;
+}
+
+.card-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.card-footer {
+    text-align: center;
+	border: 0;
+	padding: 20px 0 0 0;
+}
+
+.card{
+    box-shadow: 8px 4px 11px 2px #545454;
+}
+
+.link-incard {
+	font-size: 14px;
+	color: #3b404f;
+	font-weight: 400;
+}
+.btn-color  {
+	background:  #294f6e;
+	color:#fff;
+    padding: 5px 25px;
+    font-weight: 800;
+}
+.btn-color:hover{
+    background: #6999c0;
+    color:rgb(32, 54, 72);
+}
+/*конец свойств сетки карточек*/
 .epigraph{
    text-align: right;
    font-style: italic;
@@ -61,13 +104,3 @@ p{
    margin: 2em;
 }
 
-/*body {
-    background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-} */

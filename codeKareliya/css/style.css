@@ -53,6 +53,7 @@ p{
     text-indent: 3.5em;
 }
 
+
 /* свойства сетки карточек */
 .card-title {
 	font-size: 22px;
@@ -96,3 +97,10 @@ p{
     color:rgb(32, 54, 72);
 }
 /*конец свойств сетки карточек*/
+.epigraph{
+   text-align: right;
+   font-style: italic;
+   font-size: 14px; 
+   margin: 2em;
+}
+

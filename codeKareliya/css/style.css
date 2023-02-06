@@ -54,6 +54,13 @@ p{
     text-indent: 3.5em;
 }
 
+.epigraph{
+   text-align: right;
+   font-style: italic;
+   font-size: 14px; 
+   margin: 2em;
+}
+
 /*body {
     background-image: url("../images/kivach-kareliya-voda-vodopad.jpg");
     background-repeat: no-repeat;

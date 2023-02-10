@@ -104,15 +104,25 @@ p{
    margin: 2em;
 }
 /*стили картинок в тексте*/
-/*.img{
-    
-}*/
-.img-left{
-    float: left;
+.content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.img-size{
+    height: 480px;
+}
+/*.img-start{
+    margin-top: 1.5em;
+    width: 480px;
+    float: inline-start;
     margin-right: 1.5em;
 }
-.img-right{
-    float: right;
+.img-end{
+    width: 480px;
+    float: inline-end;
     margin-left: 1.5em;
-}
+}*/
 

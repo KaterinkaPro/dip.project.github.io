@@ -52,6 +52,9 @@ body {
 p{
     text-indent: 3.5em;
 }
+.indent{
+    margin-left: 3.5em;
+}
 
 
 /* свойства сетки карточек */

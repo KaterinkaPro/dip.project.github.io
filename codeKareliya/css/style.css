@@ -13,7 +13,7 @@ body {
 
 .footer {
     background: #294f6e;
-    color: #fff;
+    color: 	#c0c0c0;
     font-size: 14px;
     text-align: center;
 }
@@ -51,6 +51,9 @@ body {
 
 p{
     text-indent: 3.5em;
+}
+.indent{
+    margin-left: 3.5em;
 }
 
 
@@ -103,4 +106,26 @@ p{
    font-size: 14px; 
    margin: 2em;
 }
+/*стили картинок в тексте*/
+.content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.img-size{
+    height: 480px;
+}
+/*.img-start{
+    margin-top: 1.5em;
+    width: 480px;
+    float: inline-start;
+    margin-right: 1.5em;
+}
+.img-end{
+    width: 480px;
+    float: inline-end;
+    margin-left: 1.5em;
+}*/
 

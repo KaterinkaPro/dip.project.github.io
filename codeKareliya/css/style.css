@@ -118,6 +118,9 @@ p{
 .img-size{
     height: 480px;
 }
+.card-img-top{
+    height: 300px;
+}
 /*.img-start{
     margin-top: 1.5em;
     width: 480px;

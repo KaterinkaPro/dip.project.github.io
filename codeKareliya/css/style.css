@@ -121,6 +121,10 @@ p{
 .card-img-top{
     height: 300px;
 }
+.figcaption{
+    text-align: center;
+    font-size: 12px;
+}
 /*.img-start{
     margin-top: 1.5em;
     width: 480px;

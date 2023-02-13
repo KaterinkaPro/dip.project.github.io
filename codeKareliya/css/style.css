@@ -57,8 +57,9 @@ p{
     margin-left: 3.5em;
 }
 
-
-/* свойства сетки карточек */
+/*---------------------------------------
+  CARD GRID PROPERTY             
+-----------------------------------------*/
 .card-title {
 	font-size: 22px;
 	color: #3b404f;
@@ -100,7 +101,9 @@ p{
     background: #6999c0;
     color:rgb(32, 54, 72);
 }
-/*конец свойств сетки карточек*/
+
+
+
 .epigraph{
    text-align: right;
    font-style: italic;
@@ -120,6 +123,10 @@ p{
 }
 .card-img-top{
     height: 300px;
+}
+.figcaption{
+    text-align: center;
+    font-size: 12px;
 }
 /*.img-start{
     margin-top: 1.5em;

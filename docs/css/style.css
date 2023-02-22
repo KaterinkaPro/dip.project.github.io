@@ -1,0 +1,142 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+}
+
+.header {
+    background: #294f6e;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    background: #294f6e;
+    color: 	#c0c0c0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    background-color: #6999c0;
+}
+.dropdown-menu a:hover {
+    background-color: #294f6e;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 0 5px 5px 0;
+}
+
+.forsearch {
+    background-color: #009b86;
+    color: rgb(255, 255, 255);
+}
+
+.headname {
+    margin: 0.5em;
+    text-align: center;
+}
+
+/*курсив по цетнру*/
+.heading {
+    font-style: italic;
+    text-align: center;
+}
+
+.description{
+    font-style: italic;
+}
+
+p{
+    text-indent: 3.5em;
+}
+.indent{
+    margin-left: 3.5em;
+}
+
+/*---------------------------------------
+  CARD GRID PROPERTY             
+-----------------------------------------*/
+.card-title {
+	font-size: 22px;
+	color: #3b404f;
+	font-weight: 700;
+}
+
+.card-body {
+	padding: 7px;
+}
+
+.card-text {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.card-footer {
+    text-align: center;
+	border: 0;
+	padding: 20px 0 0 0;
+}
+
+.card{
+    box-shadow: 8px 4px 11px 2px #545454;
+}
+
+.link-incard {
+	font-size: 14px;
+	color: #3b404f;
+	font-weight: 400;
+}
+.btn-color  {
+	background:  #294f6e;
+	color:#fff;
+    padding: 5px 25px;
+    font-weight: 800;
+}
+.btn-color:hover{
+    background: #6999c0;
+    color:rgb(32, 54, 72);
+}
+
+
+
+.epigraph{
+   text-align: right;
+   font-style: italic;
+   font-size: 14px; 
+   margin: 2em;
+}
+/*стили картинок в тексте*/
+.content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.img-size{
+    height: 480px;
+}
+.card-img-top{
+    height: 300px;
+}
+.figcaption{
+    text-align: center;
+    font-size: 12px;
+}
+/*.img-start{
+    margin-top: 1.5em;
+    width: 480px;
+    float: inline-start;
+    margin-right: 1.5em;
+}
+.img-end{
+    width: 480px;
+    float: inline-end;
+    margin-left: 1.5em;
+}*/
+

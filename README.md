@@ -767,6 +767,7 @@ P.S **Соответственно, тестирование с помощью �
       12. http://cs.petrsu.ru/~kulakov/courses/requirements/lectures/2.property.pdf
       13. https://habr.com/ru/post/676922/
       14. https://kadr.adm-nao.ru/rezerv-upravlencheskih-kadrov-neneckogo-avtonomnogo-okruga/upravlyaj-gramotno/
+      15. https://gb.ru/blog/test-kejs/
 
    ***Приложения***
 

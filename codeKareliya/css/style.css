@@ -82,7 +82,7 @@ p{
 	padding: 20px 0 0 0;
 }
 
-.card{
+.card-shadow{
     box-shadow: 8px 4px 11px 2px #545454;
 }
 
@@ -140,3 +140,33 @@ p{
     margin-left: 1.5em;
 }*/
 
+
+
+/*---------------------------------------
+  EPOS PROPERTY             
+-----------------------------------------*/
+.eposforcard {
+    padding: 50px 0px 60px 0;
+    
+}
+.imgforcardepos {
+    height: auto;
+}
+
+.runaname{
+    margin-left: 75px;
+}
+
+.linkforcardepos{
+    text-decoration: none;
+}
+
+.linkforcardepos:hover{
+    background: #48fff6; 
+    color: rgba(0, 0, 0, 0)FF;
+    transition: all 0.2s ease;
+    border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 0 6px 6px 0;
+    box-shadow: 3px 2px 11px 1px #000000;
+}

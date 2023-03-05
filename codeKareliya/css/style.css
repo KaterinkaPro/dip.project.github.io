@@ -128,18 +128,21 @@ p{
     text-align: center;
     font-size: 12px;
 }
-/*.img-start{
-    margin-top: 1.5em;
-    width: 480px;
-    float: inline-start;
-    margin-right: 1.5em;
+.history-hide {
+    display: none!important;
 }
-.img-end{
-    width: 480px;
-    float: inline-end;
-    margin-left: 1.5em;
-}*/
-
+#history-button {
+    background: #61a229;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    padding: .5em 1em;
+    display: inline-block;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
 
 
 /*---------------------------------------

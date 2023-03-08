@@ -128,6 +128,7 @@ p{
     text-align: center;
     font-size: 12px;
 }
+/* Стили кнопи "Назад" */
 .history-hide {
     display: none!important;
 }
@@ -143,7 +144,10 @@ p{
     cursor: pointer;
     border: 1px solid #ccc;
 }
+/* Стили для системы поиска */
+.searchResults{
 
+}
 
 /*---------------------------------------
   EPOS PROPERTY             

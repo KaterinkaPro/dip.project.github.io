@@ -20,7 +20,7 @@ textsArray.push(textObj_4); // TODO
 // TODO
 // function fillText(url) { 
 //     fetch(url)
-//         .then(res => text(res))
+//         .then(res => res.text())
 //         .then(html => html)
 //         }; 
 

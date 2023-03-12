@@ -101,9 +101,7 @@ p{
     background: #6999c0;
     color:rgb(32, 54, 72);
 }
-
-
-
+/* стили для содержимого страниц, в т.ч. эпиграфов */
 .epigraph{
    text-align: right;
    font-style: italic;
@@ -128,6 +126,7 @@ p{
     text-align: center;
     font-size: 12px;
 }
+/* Стили кнопи "Назад" */
 .history-hide {
     display: none!important;
 }
@@ -143,7 +142,10 @@ p{
     cursor: pointer;
     border: 1px solid #ccc;
 }
+/* Стили для системы поиска */
+.searchResults{
 
+}
 
 /*---------------------------------------
   EPOS PROPERTY             

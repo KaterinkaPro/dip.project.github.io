@@ -11,6 +11,14 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+        <script language="javascript" type="text/javascript">
+            function OnLoad() {
+                // var paramValue = window.location.href.split("?")[1].split("=")[1];
+                // document.getElementById("UsName").innerHTML = paramValue;
+                let text = window.location.hash.substring(1);
+                window.alert(text);
+            }
+        </script>
     </head>
     <body>
         <header class="header">
@@ -104,71 +112,11 @@
                 </nav>
             </div>
         </header>
-        <div class="container description">
+        <div class="container">
             <br>
             <button id="history-button" class="history-hide">Вернуться назад</button>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 border-0 card-shadow">
-                        <img src="./images/devil_boat.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="legends/captain_sivgard.html">
-                                <h5 class="card-title heading">Легенда о&nbsp;сокровищах и&nbsp;капитане Сигварде</h5>
-                            </a>
-                            <p class="card-text"></p>
-                        </div>
-                        <div class="card-footer">
-                            <a
-                                class="btn btn-color btn-sm mt-2 text-color-card"
-                                href="legends/captain_sivgard.html">Читать далее&raquo;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 border-0 card-shadow">
-                        <img src="images/image.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="legends/finno_ugric_culture.html">
-                                <h5 class="card-title heading">Традиционная культура финно-угров и&nbsp;соседних народов</h5>
-                            </a>
-                            <p class="card-text"></p>
-                        </div>
-                        <div class="card-footer">
-                            <a
-                                class="btn btn-color btn-sm mt-2 text-color-card"
-                                href="legends/finno_ugric_culture.html">Читать далее&raquo;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 border-0 card-shadow">
-                        <img src="images/giant1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="legends/giants.html">
-                                <h5 class="card-title heading">О великанах</h5>
-                            </a>
-                            <p class="card-text"></p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-color btn-sm mt-2 text-color-card" href="legends/giants.html">Читать далее&raquo;</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 border-0 card-shadow">
-                        <img src="images/ladoga_monster.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="legends/monster.html">
-                                <h5 class="card-title heading">Неизвестный монстр или тайна Ладожского озера</h5>
-                            </a>
-                            <p class="card-text"></p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-color btn-sm mt-2 text-color-card" href="legends/monster.html">Читать далее&raquo;</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 class="headname">Результаты поиска:</h2>
+            <div class="searchResults"></div>
         </div>
         <div class="container-fluid footer  pt-3 pb-1 mt-5">
             <footer class="container">
@@ -180,5 +128,7 @@
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
             <script src="js/bottom_back.js"></script>
+            <script src="js/search/search.js"></script>
+            <script src="js/search/inner.js"></script>
     </body>
 </html>

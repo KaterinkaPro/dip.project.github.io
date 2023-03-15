@@ -16,6 +16,7 @@ async function main() {
     
     const atrractionsObj = { link: "<a href = 'attractions.html'>Достопримечательности Карелии</a>", description: "Ладожское озеро&nbsp;&mdash; настоящая жемчужина Карелии и Ленинградской области. Его суровая и&nbsp;величественная красота волнует людей не одно столетие. Такие великие художники, как Шишкин, Клодт, Куинджи, посещали эти места и&nbsp;передавали их&nbsp;красоту в&nbsp;своих полотнах. Но&nbsp;можно&nbsp;ли передать те&nbsp;эмоции и впечатления от&nbsp;пребывания у&nbsp;Ладоги!", text: "1234" + attractions };
     
+    //! TODO
     // const nameObj1 = { link: "", description: "", text: name1 };
     // const nameObj2 = { link: "", description: "", text: name2 };
     // const nameObj3 = { link: "", description: "", text: name3 };
@@ -31,6 +32,8 @@ async function main() {
     textsArray.push(historyObj);
     textsArray.push(natureObj);
     textsArray.push(atrractionsObj);
+
+    //! TODO
     // textsArray.push(nameObj1);
     // textsArray.push(nameObj2);
     // textsArray.push(nameObj3);

@@ -2,12 +2,31 @@ const form = document.querySelector('#search');
 const input = document.querySelector('#Inputtext');
 
 async function main() {
-    const index = await getText('index.html');
-    const history = await getText('about_karelia/history.html');
-    const nature = await getText('about_karelia/nature.html');
-    const attractions = await getText('attractions');
+    // Переменные для хранения текста страниц.
+    let index = null;
+    let history = null;
+    let nature = null;
+    let attractions = null;
+
+    const response = await fetch('index.html');
+    if (response.ok) {
+        index = await getText('index.html');
+        history = await getText('about_karelia/history.html');
+        nature = await getText('about_karelia/nature.html');
+        attractions = await getText('attractions');
+    } else {
+        index = await getText('../index.html');
+        history = await getText('../about_karelia/history.html');
+        nature = await getText('../about_karelia/nature.html');
+        attractions = await getText('../attractions');
+    }
+    // const index = await getText('index.html');
+    // const history = await getText('about_karelia/history.html');
+    // const nature = await getText('about_karelia/nature.html');
+    // const attractions = await getText('attractions');
     
     let textsArray = Array();
+
     const indexObj = {title: "О Карелии - главная страница", link: "index.html", description: "Очень долго республика Карелия была широко известна в&nbsp;узких кругах любителей дикого туризма, охоты и&nbsp;рыбалки, но&nbsp;теперь все изменилось. Завораживающие скалы, обилие невероятных водопадов, будоражащие воображение болота, и&nbsp;множество троп, уходящих вглубь Тайги&nbsp;&mdash; это всё среди нас, это все&nbsp;&mdash; Карелия. Карелия открылась для всех видов туризма. Нет такого направления туризма, который нельзя встретить в&nbsp;этом дивном крае", text: "1234" + index };
     
     const historyObj = { title: "История Карелии", link: "about_karelia/history.html", description: "В&nbsp;процессе миграции людей по&nbsp;территориям, прилегающим к&nbsp;Карелии, исторически сложились три группы племён: вепсы, жившие между Ладожским и&nbsp;Онежским озерами; саами (лопари), занимавшие практически всю территорию современной Карелии и&nbsp;карелы, жившие к&nbsp;западу и&nbsp;северу от&nbsp;Ладожского озера. Само название Карелия приобрела благодаря одноименному населению. Основными занятиями древнейших жителей являлись охота и&nbsp;рыболовство. Об&nbsp;их&nbsp;жизни и&nbsp;быте нам помогают узнать археологические находки и&nbsp;сохранившиеся до&nbsp;наших времен наскальные рисунки&nbsp;&mdash; петроглифы.", text: "1234" + history };
@@ -65,7 +84,6 @@ async function main() {
         // window.alert("Find " + temp); //! NOT NEEDED, just a check
         const myObj = JSON.stringify(array);
         localStorage.setItem("json", myObj);
-        const response = await fetch(array[0].link);
         if (response.ok) {
             window.location.href = 'search.html';
         } else {

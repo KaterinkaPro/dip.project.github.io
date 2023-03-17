@@ -1,6 +1,6 @@
 
 const text = document.querySelector('.searchResults');
-let json = localStorage.getItem("json");
+let json = sessionStorage.getItem("json");
 let obj = JSON.parse(json);
 let str = "";
     for (let i = 0; i < obj.length; i++) {
@@ -8,4 +8,4 @@ let str = "";
     }
 
 text.innerHTML = str;
-localStorage.clear();
+sessionStorage.clear();

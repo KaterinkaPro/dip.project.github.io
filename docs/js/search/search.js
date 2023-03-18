@@ -20,10 +20,6 @@ async function main() {
         nature = await getText('../about_karelia/nature.html');
         attractions = await getText('../attractions');
     }
-    // const index = await getText('index.html');
-    // const history = await getText('about_karelia/history.html');
-    // const nature = await getText('about_karelia/nature.html');
-    // const attractions = await getText('attractions');
     
     let textsArray = Array();
 

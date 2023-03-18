@@ -7,29 +7,35 @@ async function main() {
     let history = null;
     let nature = null;
     let attractions = null;
+    let valaam_island = null;
+    let kizhi_island = null;
+    let ladoga_lake = null;
+    let onega_lake = null;
+    let petroglyphs = null;
+    let ruskeala = null;
 
     const response = await fetch('index.html');
     if (response.ok) {
         index = await getText('index.html');
         history = await getText('about_karelia/history.html');
         nature = await getText('about_karelia/nature.html');
-        attractions = await getText('attractions');
+        attractions = await getText('attractions.html');
     } else {
         index = await getText('../index.html');
         history = await getText('../about_karelia/history.html');
         nature = await getText('../about_karelia/nature.html');
-        attractions = await getText('../attractions');
+        attractions = await getText('../attractions.html');
     }
     
     let textsArray = Array();
 
-    const indexObj = {title: "О Карелии - главная страница", link: "index.html", keywords: "qwerty", description: "Очень долго республика Карелия была широко известна в&nbsp;узких кругах любителей дикого туризма, охоты и&nbsp;рыбалки, но&nbsp;теперь все изменилось. Завораживающие скалы, обилие невероятных водопадов, будоражащие воображение болота, и&nbsp;множество троп, уходящих вглубь Тайги&nbsp;&mdash; это всё среди нас, это все&nbsp;&mdash; Карелия. Карелия открылась для всех видов туризма. Нет такого направления туризма, который нельзя встретить в&nbsp;этом дивном крае", text: "1234" + index };
+    const indexObj = {title: "О Карелии - главная страница", link: "index.html", keywords: "qwerty", description: "Очень долго республика Карелия была широко известна в&nbsp;узких кругах любителей дикого туризма, охоты и&nbsp;рыбалки, но&nbsp;теперь все изменилось. Завораживающие скалы, обилие невероятных водопадов, будоражащие воображение болота, и&nbsp;множество троп, уходящих вглубь Тайги&nbsp;&mdash; это всё среди нас, это все&nbsp;&mdash; Карелия. Карелия открылась для всех видов туризма. Нет такого направления туризма, который нельзя встретить в&nbsp;этом дивном крае", text: index };
     
-    const historyObj = { title: "История Карелии", link: "about_karelia/history.html", keywords: "qwerty", description: "В&nbsp;процессе миграции людей по&nbsp;территориям, прилегающим к&nbsp;Карелии, исторически сложились три группы племён: вепсы, жившие между Ладожским и&nbsp;Онежским озерами; саами (лопари), занимавшие практически всю территорию современной Карелии и&nbsp;карелы, жившие к&nbsp;западу и&nbsp;северу от&nbsp;Ладожского озера. Само название Карелия приобрела благодаря одноименному населению. Основными занятиями древнейших жителей являлись охота и&nbsp;рыболовство. Об&nbsp;их&nbsp;жизни и&nbsp;быте нам помогают узнать археологические находки и&nbsp;сохранившиеся до&nbsp;наших времен наскальные рисунки&nbsp;&mdash; петроглифы.", text: "1234" + history };
+    const historyObj = { title: "История Карелии", link: "about_karelia/history.html", keywords: "qwerty", description: "В&nbsp;процессе миграции людей по&nbsp;территориям, прилегающим к&nbsp;Карелии, исторически сложились три группы племён: вепсы, жившие между Ладожским и&nbsp;Онежским озерами; саами (лопари), занимавшие практически всю территорию современной Карелии и&nbsp;карелы, жившие к&nbsp;западу и&nbsp;северу от&nbsp;Ладожского озера. Само название Карелия приобрела благодаря одноименному населению. Основными занятиями древнейших жителей являлись охота и&nbsp;рыболовство. Об&nbsp;их&nbsp;жизни и&nbsp;быте нам помогают узнать археологические находки и&nbsp;сохранившиеся до&nbsp;наших времен наскальные рисунки&nbsp;&mdash; петроглифы.", text: history };
 
-    const natureObj = { title: "Природа Карелии", link: "about_karelia/nature.html", keywords: "qwerty", description: "Природа Карелии очаровывает любого, кто хоть единожды бывал в&nbsp;этих местах. И&nbsp;это неслучайно. Красивая северная природа изобилует буйными реками с&nbsp;крутыми порогами, девственно чистыми лесами, разнообразной флорой и&nbsp;фауной. В&nbsp;Карелии насчитывается более 60&nbsp;000&nbsp;озер, самые известные и&nbsp;самые крупные из&nbsp;которых&nbsp;&mdash; Онежское и&nbsp;Ладожское. В&nbsp;республике протекает множество рек и&nbsp;речушек, но&nbsp;все они короткие. Самая длинная из&nbsp;них&nbsp;&mdash; Кемь протяженностью в&nbsp;360&nbsp;км. Также есть и&nbsp;болота и&nbsp;водопады. Именно водоемы в&nbsp;сочетании с&nbsp;карельскими лесами и&nbsp;создают тот удивительный климат, который очаровывает всех.", text: "1234" + nature };
+    const natureObj = { title: "Природа Карелии", link: "about_karelia/nature.html", keywords: "qwerty", description: "Природа Карелии очаровывает любого, кто хоть единожды бывал в&nbsp;этих местах. И&nbsp;это неслучайно. Красивая северная природа изобилует буйными реками с&nbsp;крутыми порогами, девственно чистыми лесами, разнообразной флорой и&nbsp;фауной. В&nbsp;Карелии насчитывается более 60&nbsp;000&nbsp;озер, самые известные и&nbsp;самые крупные из&nbsp;которых&nbsp;&mdash; Онежское и&nbsp;Ладожское. В&nbsp;республике протекает множество рек и&nbsp;речушек, но&nbsp;все они короткие. Самая длинная из&nbsp;них&nbsp;&mdash; Кемь протяженностью в&nbsp;360&nbsp;км. Также есть и&nbsp;болота и&nbsp;водопады. Именно водоемы в&nbsp;сочетании с&nbsp;карельскими лесами и&nbsp;создают тот удивительный климат, который очаровывает всех.", text: nature };
     
-    const atrractionsObj = { title: "Достопримечательности Карелии", link: "attractions.html", keywords: "qwerty", description: "Ладожское озеро&nbsp;&mdash; настоящая жемчужина Карелии и Ленинградской области. Его суровая и&nbsp;величественная красота волнует людей не одно столетие. Такие великие художники, как Шишкин, Клодт, Куинджи, посещали эти места и&nbsp;передавали их&nbsp;красоту в&nbsp;своих полотнах. Но&nbsp;можно&nbsp;ли передать те&nbsp;эмоции и впечатления от&nbsp;пребывания у&nbsp;Ладоги!", text: "1234" + attractions };
+    const atrractionsObj = { title: "Достопримечательности Карелии", link: "attractions.html", keywords: "qwerty", description: "Ладожское озеро&nbsp;&mdash; настоящая жемчужина Карелии и Ленинградской области. Его суровая и&nbsp;величественная красота волнует людей не одно столетие. Такие великие художники, как Шишкин, Клодт, Куинджи, посещали эти места и&nbsp;передавали их&nbsp;красоту в&nbsp;своих полотнах. Но&nbsp;можно&nbsp;ли передать те&nbsp;эмоции и впечатления от&nbsp;пребывания у&nbsp;Ладоги!", text: attractions };
     
     //! TODO
     // const nameObj1 = { title: "", link: "",  description: "", keywords: "qwerty", text: name1 };
@@ -88,6 +94,7 @@ async function main() {
         // window.alert("Find " + temp); //! NOT NEEDED, just a check
         const myObj = JSON.stringify(array);
         sessionStorage.setItem("json", myObj);
+        sessionStorage.setItem("value", value);
         if (response.ok) {
             window.location.href = 'search.html';
         } else {

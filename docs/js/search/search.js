@@ -78,6 +78,8 @@ async function main() {
                 sortArray.push(fillDescription(i, maxCharCount))
             }
         }
+        if (sortArray.length < 1)
+            sortArray.push({ title: "Ошибка:", link: "./", description: `По Вашему запросу: <b>${value}</b> ничего не найдено. Попробуйте сформулировать немного другой запрос`, keywords: "", text: value });
         return sortArray;
     }
     

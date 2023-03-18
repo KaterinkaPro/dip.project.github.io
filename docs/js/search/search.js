@@ -56,6 +56,7 @@ async function main() {
 
 
     // Заполнение массива JSON-объектами: заглавие, ссылка, описание, ключевые слова, текст
+    //! TODO
     let textsArray = Array();
     textsArray.push(indexObj);
     textsArray.push(historyObj);
@@ -69,8 +70,6 @@ async function main() {
     textsArray.push(ruskealaObj);
     // textsArray.push();
     // textsArray.push();
-
-    //! TODO
     // textsArray.push(nameObj1);
     // textsArray.push(nameObj2);
     // textsArray.push(nameObj3);

@@ -368,7 +368,6 @@ p{
     transform: scale(1.1);
     
 }
-
 /*---------------------------------------
       VIDEO ABOUT           
 -----------------------------------------*/
@@ -384,53 +383,45 @@ p{
 }
 
 /*-----------------------------------------
-      ABOUT modal
+   BTN UP
 -----------------------------------------*/
-.overlay {
-    position: fixed;
-    z-index: 5;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.8);
+#myBtn {
     display: none;
-}
-.overlay.active {
-    display: block;
-}
-.overlay .flex-popap {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.overlay .flex-popap .popap {
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    padding: 35px 25px;
-    margin: 0 10px;
-    max-width: 1000px;
-    overflow: auto;
-}
-.popap span {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 18px;
-    font-weight: 600;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(132, 179, 248);
+    opacity:0.5;
     cursor: pointer;
+    padding: 5px;
+    border-radius: 8px;
 }
 
-.space {
-    text-indent: 0;
-    margin: 0;
+#myBtn:hover {
+  background-color: rgb(86, 235, 255);
+  opacity:1;
+}
+/*-----------------------------------------
+   FOOTER BTN ABOUT
+-----------------------------------------*/
+.forfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 35%;
+}
+.btn-about {
+    width: 90px;
+    height: 40px;
+    color: #c0c0c0;
+    font-size: 18px;
+    cursor: pointer;
+    padding-bottom: 40px;
 }
 
-.li-modal {
-    list-style-type: none; 
-   }
-
-.li-modal:before {
-    content: "- "; 
-   }
+.btn-about:hover{
+    color: #ffffff;
+}

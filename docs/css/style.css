@@ -175,3 +175,262 @@ p{
     -moz-border-radius: 0 6px 6px 0;
     box-shadow: 3px 2px 11px 1px #000000;
 }
+
+/*---------------------------------------
+  ABOUT            
+-----------------------------------------*/
+.about{
+    background-image: url('../images/about5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -80px;
+    padding-top: 100px;
+    padding-bottom: 150px;   
+}
+
+.about-team{
+    background-image: url('../images/about111.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -80px;
+    padding-top: 300px;
+    padding-bottom: 100px;   
+}
+
+.myBeautifulTeam {
+    background: #f0f8ff;
+}
+
+.myBeautifulTeam-thumb {
+    position: relative;
+}
+
+.myBeautifulTeam-thumb-small {
+    margin-top: 24px;
+}
+
+.myBeautifulTeam-thumb:hover .myBeautifulTeam-info::before {
+    background: #0dcaf0;
+    width: 100%;
+    padding: 15px;
+}
+
+.myBeautifulTeam-thumb:hover .myBeautifulTeam-text,
+.myBeautifulTeam-thumb:hover .myBeautifulTeam-title {
+    color: #ffffff;
+}
+
+.myBeautifulTeam-info {
+    background: #ffffff;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px;
+    padding: 10px 15px;
+}
+
+.myBeautifulTeam-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #0dcaf0;
+    width: 5px;
+    height: 100%;
+    transition: all 1s;
+}
+
+.myBeautifulTeam-image {
+    width: 100%;
+    display: inline-block; 
+    overflow: hidden; 
+}
+
+.myBeautifulTeam-image  {
+    transition: 1s; 
+    display: block; 
+   }
+
+.myBeautifulTeam-image:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    object-fit: cover;
+}
+  
+.myBeautifulTeam-text-info {
+    padding: 100px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.myBeautifulTeam-text,
+.myBeautifulTeam-title {
+    position: relative;
+}
+
+.myBeautifulTeam-text {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #717275;
+    text-indent: 0;
+}
+
+.myBeautifulTeam-featured-text {
+    background: #f0f8ff;
+    border-radius: 4px;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 4px 12px;
+}
+
+.myBeautifulTeam-thumb .social-icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+}
+
+.myBeautifulTeam-thumb .social-icon {
+    opacity: 0;
+    transition: opacity all 1s;
+}
+
+.myBeautifulTeam-thumb:hover .social-icon {
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.social-icon {
+    opacity: 1;
+    transition-delay: 1s;
+}
+
+.social-icon-link {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.social-icon-link {
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.social-icon-link {
+    background: #ffffff;
+    border-radius: 100px;
+    font-size: 18px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-icon-link:hover {
+    background: #0dcaf0;
+    color: #ffffff;
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.textInfo {
+    color: #0dcaf0;
+}
+
+.hh {
+    background: #d20a11;
+    color: #ffffff;
+    font-weight: 500;
+}
+.hh:hover{
+    background: #0dcaf0;
+    color: #ffffff;
+    font-weight: 500;
+    transform: scale(1.1);
+    
+}
+
+/*---------------------------------------
+      VIDEO ABOUT           
+-----------------------------------------*/
+.video-wrap {
+    z-index: -100;
+}
+.custom-video {
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------------
+      ABOUT modal
+-----------------------------------------*/
+.overlay {
+    position: fixed;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+.overlay.active {
+    display: block;
+}
+.overlay .flex-popap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay .flex-popap .popap {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 25px;
+    margin: 0 10px;
+    max-width: 1000px;
+    overflow: auto;
+}
+.popap span {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.space {
+    text-indent: 0;
+    margin: 0;
+}
+
+.li-modal {
+    list-style-type: none; 
+   }
+
+.li-modal:before {
+    content: "- "; 
+   }

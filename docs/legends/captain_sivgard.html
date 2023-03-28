@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="../images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="../about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search">
@@ -132,7 +133,7 @@
             мотобот &laquo;Господня благодать&raquo; и, закрасив его прежнее название, вывел на&nbsp;борту черной краской зловещие 
             цифры&nbsp;&mdash; &laquo;666&raquo;. 
         </p>
-        <div class="content-center"><img class="img-size" src="../images/devil_boat.jpeg" alt="Капитан Сигвард"></div>
+        <div class="content-center"><img class="img-size img-fluid" src="../images/devil_boat.jpeg" alt="Капитан Сигвард"></div>
         <p>
             Накануне дня святого Улофа, когда, по&nbsp;старинным скандинавским поверьям, ведьмы и&nbsp;прочая нечисть слетаются на&nbsp;шабаш 
             в&nbsp;местечко Блакулла, в&nbsp;Кексгольме случилось несколько кошмарных событий. Ночью кто-то проник в&nbsp;городскую кирху 
@@ -154,7 +155,11 @@
 
     <div class="container-fluid footer  pt-3 pb-1 mt-5">
         <footer class="container">
-            <script src="../js/innerCopyright.js"></script>
+            <div class="forfooter">
+                <script src="../js/innerCopyright.js"></script>
+                <div class="text-center forbtn-adout">
+                    <a href="../about.html" class="btn-about btn btn-lg ">О нас</a>
+                </div> 
         </footer>
     </div>
     <script
@@ -163,5 +168,6 @@
         crossorigin="anonymous"></script>
         <script src="../js/bottom_back.js"></script>
         <script src="../js/search/search.js"></script>
+        <script src="../js/btnUp.js"></script>
 </body>
 </html>

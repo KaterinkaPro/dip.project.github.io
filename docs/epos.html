@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+      <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search" id="search">
@@ -106,7 +107,7 @@
         </header>
         <button id="history-button" class="history-hide">Вернуться назад</button>
       <div class="container">
-        <div class="content-center"><img class="img-size" src="images/vjaynemeynen.jpg" alt="Вяйнямёйнен"></div>
+        <div class="content-center"><img class="img-size img-fluid" src="images/vjaynemeynen.jpg" alt="Вяйнямёйнен"></div>
         <h2 class="headname">Карело-финский поэтический эпос &laquo;Калевала&raquo;</h2>
         <p>
           Калевала&nbsp;&mdash; это народно эпические эпосы, собранные воедино Элиасом Лённротом, финским собирателем народных сказаний.
@@ -23563,9 +23564,12 @@
 
         <div class="container-fluid footer  pt-3 pb-1 mt-5">
             <footer class="container">
-                <p>
-                    &copy; Все права защищены. &laquo;QB&raquo;, 2023.
-                </p>
+                <div class="forfooter">
+                    <script src="js/innerCopyright.js"></script>
+                    <div class="text-center forbtn-adout">
+                      <a href="about.html" class="btn-about btn btn-lg ">О нас</a>
+                    </div>  
+                  </div>  
             </footer>
         </div>
     </div>
@@ -23575,5 +23579,6 @@
             crossorigin="anonymous"></script>
             <script src="js/bottom_back.js"></script>
             <script src="js/search/search.js"></script>
+            <script src="js/btnUp.js"></script>
     </body>
 </html>

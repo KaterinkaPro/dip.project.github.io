@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="../images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="../about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search" id="search">
@@ -109,7 +110,7 @@
         <h2 class="headname">Остров Валаам</h2>
         <h5 class="heading">Остров Валаам на&nbsp;Онежском озере</h5>
         <div class="content-center">
-            <figure><img class="img-size" src="../images/valaam2.jpg" alt="Остров Валаам на Онежском озере">
+            <figure><img class="img-size img-fluid" src="../images/valaam2.jpg" alt="Остров Валаам на Онежском озере">
             <figcaption class="figcaption">Остров Валаам на Онежском озере</figcaption></figure>
         </div>
         <p>
@@ -121,7 +122,7 @@
         <p>
             Само название остров получил много столетий назад, когда здесь жили финно-угорские племена, а&nbsp;позже карелы. История возникновения полна легенд и&nbsp;загадок. Название можно перевести с&nbsp;финно-угорского &laquo;валамо&raquo; как &laquo;высокая земля&raquo;. Некоторые сопоставляют его с&nbsp;именем Валы&nbsp;&mdash; по&nbsp;древнескандинавской мифологии сыном Одина, а&nbsp;также со&nbsp;славянским богом Велесом, которому здесь приносили жертвы язычники. Именем Валаам звался и&nbsp;библейский прорицатель о&nbsp;Христе.
         </p>
-        <div class="content-center"><img class="img-size" src="../images/valaam3.jpg" alt="Валаам"></div>
+        <div class="content-center"><img class="img-size img-fluid" src="../images/valaam3.jpg" alt="Валаам"></div>
         <p>
             По&nbsp;преданию, начало монастырю положил Андрей Первозванный, установив каменный крест во&nbsp;время распространения Христианства. Особо почитаются на&nbsp;Валааме преподобные Сергий и&nbsp;Герман, основавшие здесь монашеское братство.
         </p>
@@ -132,7 +133,7 @@
             Валаам&nbsp;&mdash; самый большой остров Валаамского архипелага на&nbsp;Ладожском озере. Среди туристов и&nbsp;паломников Валаамом принято называть весь архипелаг. Славится он&nbsp;великолепной природой, древней историей и&nbsp;красотой расположенных здесь культовых сооружений. Природные и&nbsp;рукотворные достопримечательности Валаама вдохновляли побывавших здесь в&nbsp;разное время знаменитых художников, поэтов, писателей, музыкантов: Александра Дюма, Фёдора Тютчева, Ивана Шишкина, Исаака Левитана, Петра Чайковского и&nbsp;других. Ежегодно архипелаг посещает более ста тысяч человек.
         </p>
         <div class="content-center">
-            <figure><img class="img-size" src="../images/valaam1.jpg" alt="Спасо-Преображенский монастырь (Валаамский монастырь)">
+            <figure><img class="img-size img-fluid" src="../images/valaam1.jpg" alt="Спасо-Преображенский монастырь (Валаамский монастырь)">
             <figcaption class="figcaption">Спасо-Преображенский монастырь (Валаамский монастырь)</figcaption></figure>
         </div>
         <h5 class="heading"><b>Интересные факты</b></h5>
@@ -156,7 +157,11 @@
 
     <div class="container-fluid footer  pt-3 pb-1 mt-5">
         <footer class="container">
-            <script src="../js/innerCopyright.js"></script>
+            <div class="forfooter">
+                <script src="../js/innerCopyright.js"></script>
+                <div class="text-center forbtn-adout">
+                <a href="../about.html" class="btn-about btn btn-lg ">О нас</a>
+            </div> 
         </footer>
     </div>
     <script
@@ -165,5 +170,6 @@
         crossorigin="anonymous"></script>
         <script src="../js/bottom_back.js"></script>
         <script src="../js/search/search.js"></script>
+        <script src="../js/btnUp.js"></script>
 </body>
 </html>

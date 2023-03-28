@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="../images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="../about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search" id="search">
@@ -109,8 +110,8 @@
         <h2 class="headname">История Карелии</h2>
         <button id="history-button" class="history-hide">Вернуться назад</button>
         <p>Около восьми тысяч лет назад до&nbsp;н.&nbsp;э., после схода ледниковых покровов, начала заселяться территория Карелии.</p>
-        <div class="content-center">
-            <img src="../images/about_karelia-history-1.jpg" alt="Карта..." class="img-size">
+        <div class="content-center  ">
+            <img src="../images/about_karelia-history-1.jpg" alt="Карта..." class="img-size img-fluid">
         </div>
         <div>
             <p>В&nbsp;процессе миграции людей по&nbsp;территориям, прилегающим к&nbsp;Карелии, исторически сложились три группы племён: вепсы, жившие между Ладожским и&nbsp;Онежским озерами; саами (лопари), занимавшие практически всю территорию современной Карелии и&nbsp;карелы, жившие к&nbsp;западу и&nbsp;северу от&nbsp;Ладожского озера. Само название Карелия приобрела благодаря одноименному населению. Основными занятиями древнейших жителей являлись охота и&nbsp;рыболовство. Об&nbsp;их&nbsp;жизни и&nbsp;быте нам помогают узнать археологические находки и&nbsp;сохранившиеся до&nbsp;наших времен наскальные рисунки&nbsp;&mdash; петроглифы.</p>       
@@ -122,7 +123,7 @@
             <p>В&nbsp;Х-ХI веках южная часть Карелии попала в&nbsp;сферу влияния древнерусского государства, здесь и&nbsp;в&nbsp;Поморье стали возникать славянские поселения. С&nbsp;ХII века Карелия входит в&nbsp;состав Новгородского княжества. В&nbsp;ХIV-XV веках возник целый ряд торговых поселений&nbsp;&mdash; Олонец, Пудога, Повенец, Сума и&nbsp;Вытегорский погост.</p>
         </div>
         <div class="content-center">
-            <img src="../images/about_karelia-history-2.jpg" alt="Старое фото..." class="img-size">
+            <img src="../images/about_karelia-history-2.jpg" alt="Старое фото..." class="img-size img-fluid">
         </div>
         <div>
             <p>С&nbsp;1478&nbsp;г. вместе с&nbsp;Новгородом Карелия вошла в&nbsp;состав Русского государства.</p>
@@ -137,7 +138,11 @@
     </div>
     <div class="container-fluid footer  pt-3 pb-1 mt-5">
         <footer class="container ">
-            <script src="../js/innerCopyright.js"></script>
+            <div class="forfooter">
+                <script src="../js/innerCopyright.js"></script>
+                <div class="text-center forbtn-adout">
+                    <a href="../about.html" class="btn-about btn btn-lg ">О нас</a>
+                </div> 
         </footer>
     </div>
     <script
@@ -146,5 +151,6 @@
         crossorigin="anonymous"></script>
         <script src="../js/bottom_back.js"></script>
         <script src="../js/search/search.js"></script>
+        <script src="../js/btnUp.js"></script>
 </body>
 </html>

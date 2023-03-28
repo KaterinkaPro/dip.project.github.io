@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="../images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="../about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search" id="search">
@@ -107,7 +108,7 @@
         <br>
         <button id="history-button" class="history-hide">Вернуться назад</button>
         <h2 class="headname">Онежское озеро</h2>
-        <div class="content-center"><img class="img-size" src="../images/onega3.jpg" alt="Утро на Онежском озере">
+        <div class="content-center"><img class="img-fluid" src="../images/onega3.jpg" alt="Утро на Онежском озере">
         </div>
         <p>
             Онежское озеро&nbsp;&mdash; объект важного хозяйственного значения. Оно расположено на&nbsp;северо-западе России в&nbsp;нескольких регионах. Большая часть водоема, а&nbsp;это&nbsp;80%, заходит в&nbsp;республику Карелию. Оставшиеся&nbsp;20% водной поверхности делят Ленинградская и&nbsp;Вологодская области. Огромный пресноводный водоем пользуется популярностью у&nbsp;туристов. Путешественников привлекают природные красоты северного края, древняя история.
@@ -118,7 +119,7 @@
         <p>
             Среднегодовое количество осадков&nbsp;&mdash; 750&nbsp;мм, количество дней, когда они выпадают около 180, в&nbsp;отдельные годы до&nbsp;190. Относительная влажность воздуха в&nbsp;районе озера не&nbsp;превышает&nbsp;30% лишь несколько дней в&nbsp;году, максимум 8-9. Относительно ветров ситуация зависит от&nbsp;части озера, подробные данные есть в&nbsp;лоциях. Но&nbsp;если охарактеризовать коротко, то&nbsp;в&nbsp;районе восточного побережья преобладают южные, восточные и&nbsp;юго-западные ветра, а&nbsp;на&nbsp;западном&nbsp;&mdash; западные и&nbsp;юго-западные. Разумеется, бывают исключения. Летом в&nbsp;прибрежных зонах создаются условия для формирования местных бризов, которые проникают вглубь побережья до&nbsp;20&nbsp;километров.
         </p>
-        <div class="content-center"><img class="img-size" src="../images/onega2.jpg" alt="Онежское озеро"></div>
+        <div class="content-center"><img class="img-size img-fluid" src="../images/onega2.jpg" alt="Онежское озеро"></div>
         <p>
             Для водоема имеет место сезонный подъем воды, которые начинается весной. В&nbsp;этот период уровень воды в&nbsp;Онежском озере может повыситься до&nbsp;одного метра, продолжается это около двух месяцев, при этом самый высокий уровень воды наблюдается с&nbsp;июня по&nbsp;август, но&nbsp;возможны смещения в&nbsp;зависимости от&nbsp;прихода весны.
         </p>
@@ -128,7 +129,7 @@
         <p>
             Озеро является судоходным, однако к&nbsp;нынешнему дню регулярных пассажироперевозок нет, за&nbsp;исключением сезонных туристических маршрутов. А&nbsp;на&nbsp;остров Кижи даже зимой отправляются суда на&nbsp;воздушных подушках. Как мы&nbsp;уже упоминали, Онежское озеро является частью водной магистрали, которая входит в&nbsp;Беломорско-Балтийский канал и&nbsp;Волго-Балтийский водный путь. Также существует Онежский канал, который прорыт от&nbsp;реки Свирь до&nbsp;реки Вытегра.
         </p>
-        <div class="content-center"><img class="img-size" src="../images/onega1.jpg" alt="Онежское озеро"></div>
+        <div class="content-center"><img class="img-size img-fluid" src="../images/onega1.jpg" alt="Онежское озеро"></div>
         <p>
             На&nbsp;берегах находятся два порта (в&nbsp;Петрозаводске и&nbsp;Медвежьегорске), есть пять пристаней, остановочные пункты ну&nbsp;и&nbsp;конечно частные небольшие пристани, которых десятки, если не&nbsp;сотни. Также здесь проводится ежегодная &laquo;Онежская парусная регата&raquo;. Достаточно развито промысловое рыболовство, объектами промысла являются 17&nbsp;видов рыб. Впрочем, из&nbsp;них только несколько имеют важное значение, остальные попадаются как сопутствующий улов и&nbsp;целью не&nbsp;являются.
         </p>
@@ -158,7 +159,11 @@
     </div>
     <div class="container-fluid footer  pt-3 pb-1 mt-5">
         <footer class="container">
-            <script src="../js/innerCopyright.js"></script>
+            <div class="forfooter">
+                <script src="../js/innerCopyright.js"></script>
+                <div class="text-center forbtn-adout">
+                    <a href="../about.html" class="btn-about btn btn-lg ">О нас</a>
+                </div> 
         </footer>
     </div>
     <script
@@ -167,5 +172,6 @@
         crossorigin="anonymous"></script>
         <script src="../js/bottom_back.js"></script>
         <script src="../js/search/search.js"></script>
+        <script src="../js/btnUp.js"></script>
 </body>
 </html>

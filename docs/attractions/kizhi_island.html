@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
+        <button onclick="topFunction()" id="myBtn" title="btnUp"><img src="../images/icon_top.png" alt=""></button>
         <header class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
@@ -87,7 +88,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="#">О нас</a>
+                                    <a class="nav-link " href="../about.html">О нас</a>
                                 </li>
                             </ul>
                             <form class="d-flex" role="search" id="search">
@@ -108,7 +109,7 @@
         <button id="history-button" class="history-hide">Вернуться назад</button>
         <h2 class="headname">Остров Кижи</h2>
         <div class="content-center">
-            <figure><img class="img-size" src="../images/kizhi1.jpg" alt="Кижский погост">
+            <figure><img class="img-size img-fluid" src="../images/kizhi1.jpg" alt="Кижский погост">
             <figcaption class="figcaption">Кижский погост</figcaption></figure>
         </div>
         <p>
@@ -126,7 +127,7 @@
         <p>
             Ступив на&nbsp;острове первый шаг и&nbsp;вдохнув первый глоток воздуха, начинаешь чувствовать веяние светлой старины и&nbsp;безграничной свободы.
         </p>
-        <div class="content-center"><figure><img class="img-size" src="../images/kizhi2.jpg" alt="Остров Кижи Карелия"><figcaption class="figcaption">Остров Кижи Карелия</figcaption></figure></div>
+        <div class="content-center"><figure><img class="img-size img-fluid" src="../images/kizhi2.jpg" alt="Остров Кижи Карелия"><figcaption class="figcaption">Остров Кижи Карелия</figcaption></figure></div>
         <p>
             Когда-то на&nbsp;острове было 14&nbsp;деревень, но&nbsp;сохранилось только две&nbsp;&mdash; Ямка и&nbsp;Васильево. Одна находится на&nbsp;восточном берегу Онежского озера, другая&nbsp;&mdash; на&nbsp;западном его берегу.
         </p>
@@ -169,7 +170,11 @@
 
     <div class="container-fluid footer  pt-3 pb-1 mt-5">
         <footer class="container">
-            <script src="../js/innerCopyright.js"></script>
+            <div class="forfooter">
+                <script src="../js/innerCopyright.js"></script>
+                <div class="text-center forbtn-adout">
+                    <a href="../about.html" class="btn-about btn btn-lg ">О нас</a>
+                </div> 
         </footer>
     </div>
     <script
@@ -178,5 +183,6 @@
         crossorigin="anonymous"></script>
         <script src="../js/bottom_back.js"></script>
         <script src="../js/search/search.js"></script>
+        <script src="../js/btnUp.js"></script>
 </body>
 </html>

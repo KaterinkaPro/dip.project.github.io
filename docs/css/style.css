@@ -382,6 +382,11 @@ p{
     height: 100%;
 }
 
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+
 /*-----------------------------------------
    BTN UP
 -----------------------------------------*/
@@ -411,8 +416,10 @@ p{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
 }
+
 .btn-about {
     width: 90px;
     height: 40px;
@@ -425,3 +432,8 @@ p{
 .btn-about:hover{
     color: #ffffff;
 }
+
+.forbtn-adout{
+    display: inline-flex;
+    padding-top: 0px;
+} 

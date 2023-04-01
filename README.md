@@ -112,8 +112,6 @@
 
         1.2. Выбор среды разработки, языка разработки, фреймворков и библиотек для ПО для MVP проекта.
         
-         (Язык JS с подключением библиотек bootstrap)
-         ()
      2. Разработка в условиях отсутствия UI/UX дизайнера.
 
      3. Тестирование ПО.
@@ -126,35 +124,6 @@
 
    ***Список использованой литературы***
       
-      1. https://ru.wikipedia.org/wiki/Веб-приложение
-      2. https://habr.com/ru/company/ruvds/blog/676752/
-      3. https://www.w-polis.ru/blog/articles/chto-takoe-web-sajt/
-      4. https://qalight.ua/ru/baza-znaniy/kogda-nachinat-i-zakanchivat-testirovanie/
-      5. https://qalight.ua/ru/baza-znaniy/pochemu-testirovanie-neobhodimo/
-      6. https://qalight.ua/ru/baza-znaniy/tseli-testirovaniya/
-      7. https://qalight.ua/ru/baza-znaniy/chto-takoe-testirovanie-programmnogo-obespecheniya/
-      8. https://qalight.ua/ru/baza-znaniy/kto-zanimaetsya-testirovaniem/
-      9. https://timeweb.com/ru/community/articles/kto-takoy-testirovshchik-i-chem-on-otlichaetsya-ot-qa
-      10. https://www.atlassian.com/ru/continuous-delivery/software-testing/types-of-software-testing
-      11. https://gbcdn.mrgcdn.ru/uploads/asset/4266601/attachment/e51787a9b859ace761d08e9ce117630b.pdf
-      12. http://cs.petrsu.ru/~kulakov/courses/requirements/lectures/2.property.pdf
-      13. https://habr.com/ru/post/676922/
-      14. https://kadr.adm-nao.ru/rezerv-upravlencheskih-kadrov-neneckogo-avtonomnogo-okruga/upravlyaj-gramotno/
-      15. https://gb.ru/blog/test-kejs/
-      16. https://gbcdn.mrgcdn.ru/uploads/asset/4266580/attachment/68984c348f5732f2a8b50379a09fa54f.pdf
-      17. https://ru.hexlet.io/courses/qa-engineer-workflow/lessons/test-design-techniques/theory_unit 
-      18. http://okiseleva.blogspot.com/2020/11/blog-post_25.html 
-      19. https://practicum.yandex.ru/blog/chto-takoe-bug-report-kak-ego-sostavit/
-      20. https://robotdreams.cc/blog/257-4-osnovnye-sistemy-bagtrekinga
-
    ***Приложения***
 
-   ---
-
-   ### Наша комманда
-
-   ***Описание***
-   ### В состав входят
-
-   ***Явки, пароли))***
 

@@ -16,6 +16,10 @@ body {
     color: 	#c0c0c0;
     font-size: 14px;
     text-align: center;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    
 }
 
 .dropdown-menu {
@@ -60,6 +64,10 @@ p{
 
 .container{
     width: 1024px,auto;
+}
+.main{
+    margin-bottom: 40px;
+    padding: 16px;
 }
 /*---------------------------------------
   CARD GRID PROPERTY             
@@ -596,5 +604,6 @@ p{
     }
     .myBeautifulTeam-text{
         font-size: 12px;
+        padding: 0;
     }
 }

@@ -274,7 +274,7 @@ p{
 }
   
 .myBeautifulTeam-text-info {
-    padding: 100px;
+    padding: 25px;
     color: rgb(0, 0, 0);
     font-size: 28px;
     font-weight: 400;
@@ -406,6 +406,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 12px;
 }
 .overlay .flex-popap .popap {
     position: relative;
@@ -419,7 +420,7 @@ p{
     position: absolute;
     top: 10px;
     right: 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -570,7 +571,7 @@ p{
         font-size: 16px;
     }
     .myBeautifulTeam-info{
-        width: 420px;
+        width: 330px;
         height: 62px;
         margin: 20px;
         padding: 10px 15px;
@@ -585,8 +586,6 @@ p{
         font-size: 18px;
     }
     .myBeautifulTeam-info{
-        width: 255px;
-        height: 72px;
         margin: 20px;
         padding: 10px 15px;
     }
@@ -594,14 +593,14 @@ p{
         width: auto;
     }
     .Team-text-info{
-        font-size: 12px;
+        font-size: 16px;
     }  
     .myBeautifulTeam-thumb{
         display: flex;
         justify-content: center;
     }
     .myBeautifulTeam-text{
-        font-size: 12px;
-        padding: 0;
+        
+        padding: 5px;
     }
 }

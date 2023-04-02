@@ -35,6 +35,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
+button.btn.btn-outline-success.forsearch {
+    background-color: #009b86;
+    color: rgb(255, 255, 255);
+}
+
 .headname {
     margin: 0.5em;
     text-align: center;
@@ -422,12 +427,6 @@ p{
 .li-none{
     list-style-type: none;
 }
-
-.btn-search {
-    background-color: #009b86;
-    color: rgb(255, 255, 255);
-}
-
 
 /*---------------------------------------
       VIDEO ABOUT           

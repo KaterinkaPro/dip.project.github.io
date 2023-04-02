@@ -423,6 +423,11 @@ p{
     list-style-type: none;
 }
 
+.btn-search {
+    background-color: #009b86;
+    color: rgb(255, 255, 255);
+}
+
 
 /*---------------------------------------
       VIDEO ABOUT           
@@ -438,10 +443,10 @@ p{
     height: auto;
 }
 
-*::-webkit-media-controls-start-playback-button {
+/* *::-webkit-media-controls-start-playback-button {
     display: none!important;
     -webkit-appearance: none;
-  }
+  } */
 
 /*-----------------------------------------
    BTN UP
@@ -504,8 +509,8 @@ p{
         text-align: center;
     }
     .myBeautifulTeam-info{
-        width: 176px;
-        height: 62px;
+        width: 215px;
+        height: 84px;
         margin: 20px;
         padding: 10px 15px;
     }
@@ -515,6 +520,34 @@ p{
     .Team-text-info{
         font-size: 18px;
    }
+   .myBeautifulTeam-text{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .social-icon-link{
+        margin: 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .myBeautifulTeam-info{
+        width: 175px;
+        height: 84px;
+        margin: 20px;
+        padding: 10px 15px;
+    }
+    .myBeautifulTeam-text-info {
+        font-size: 22px;
+    }
+    .Team-text-info{
+        font-size: 14px;
+   }
+   .myBeautifulTeam-text{
+        font-size: 11px;
+    }
 }
 @media screen and (max-width: 991px){
     .myBeautifulTeam-text-info {
@@ -529,7 +562,26 @@ p{
         margin: 20px;
         padding: 10px 15px;
     }
-   
+    .myBeautifulTeam-text{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 768px){
+    .myBeautifulTeam-text-info {
+        font-size: 22px;
+    }
+    .Team-text-info{
+        font-size: 16px;
+    }
+    .myBeautifulTeam-info{
+        width: 420px;
+        height: 62px;
+        margin: 20px;
+        padding: 10px 15px;
+    }
+    .myBeautifulTeam-text{
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -552,5 +604,7 @@ p{
         display: flex;
         justify-content: center;
     }
-
+    .myBeautifulTeam-text{
+        font-size: 16px;
+    }
 }

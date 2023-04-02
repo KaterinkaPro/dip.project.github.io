@@ -35,10 +35,6 @@ body {
     color: rgb(255, 255, 255);
 }
 
-button.btn.btn-outline-success.forsearch {
-    background-color: #009b86;
-    color: rgb(255, 255, 255);
-}
 
 .headname {
     margin: 0.5em;
@@ -588,7 +584,7 @@ p{
         font-size: 18px;
     }
     .myBeautifulTeam-info{
-        width: 300px;
+        width: 255px;
         height: 62px;
         margin: 20px;
         padding: 10px 15px;

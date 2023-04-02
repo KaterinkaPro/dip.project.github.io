@@ -16,10 +16,9 @@ body {
     color: 	#c0c0c0;
     font-size: 14px;
     text-align: center;
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%; /* Full width */
-    
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
 }
 
 .dropdown-menu {
@@ -452,7 +451,7 @@ p{
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 30px;
     z-index: 99;
     border: none;
@@ -480,12 +479,12 @@ p{
 }
 
 .btn-about {
-    width: 90px;
-    height: 40px;
+    width: 80px;
+    height: 5px;
     color: #c0c0c0;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
-    padding-bottom: 40px;
+    padding-bottom: 37px;
 }
 
 .btn-about:hover{
@@ -494,7 +493,6 @@ p{
 
 .forbtn-adout{
     display: inline-flex;
-    padding-top: 0px;
 } 
 
 /*------------------------------*/

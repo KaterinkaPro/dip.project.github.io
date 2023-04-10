@@ -133,9 +133,11 @@ async function main() {
     form.addEventListener('submit', function (e) {
         e.preventDefault();
         let value = input.value;
-        resultArray = Array();
-        resultArray = sortArticles(value, 500);
-        jsonSend(resultArray, value);
+        if (value.length > 2 && value.length < 257 && /[^\x00-\x7F]/gm.test(value)) {
+            resultArray = Array();
+            resultArray = sortArticles(value, 500);
+            jsonSend(resultArray, value);
+        }
     })
 }
 
